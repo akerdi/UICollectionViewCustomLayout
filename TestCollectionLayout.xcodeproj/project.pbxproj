@@ -13,14 +13,15 @@
 		F9EF5CE61FCD54BB00413894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EF5CE51FCD54BB00413894 /* Assets.xcassets */; };
 		F9EF5CE91FCD54BB00413894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EF5CE71FCD54BB00413894 /* LaunchScreen.storyboard */; };
 		F9EF5CEC1FCD54BB00413894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CEB1FCD54BB00413894 /* main.m */; };
-		F9EF5CF81FCD54CE00413894 /* CustomCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CF41FCD54CE00413894 /* CustomCollectionViewLayout.m */; };
 		F9EF5CF91FCD54CE00413894 /* CustomCollectionLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CF51FCD54CE00413894 /* CustomCollectionLayoutController.m */; };
-		F9EF5CFA1FCD54CE00413894 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CF71FCD54CE00413894 /* CustomFlowLayout.m */; };
 		F9EF5CFE1FCD551A00413894 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CFC1FCD551A00413894 /* CollectionViewCell.m */; };
 		F9EF5CFF1FCD551A00413894 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EF5CFD1FCD551A00413894 /* CollectionViewCell.xib */; };
-		F9F63B441FCD57B100000C12 /* CustomFlowLayout2.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B431FCD57B100000C12 /* CustomFlowLayout2.m */; };
-		F9F63B471FCD607A00000C12 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B461FCD607A00000C12 /* CircleLayout.m */; };
-		F9F63B4A1FCD654F00000C12 /* SquareLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B491FCD654F00000C12 /* SquareLayout.m */; };
+		F9F63B5B1FCD87BE00000C12 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B501FCD87BE00000C12 /* CircleLayout.m */; };
+		F9F63B5C1FCD87BE00000C12 /* CustomCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B521FCD87BE00000C12 /* CustomCollectionViewLayout.m */; };
+		F9F63B5D1FCD87BE00000C12 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B541FCD87BE00000C12 /* CustomFlowLayout.m */; };
+		F9F63B5E1FCD87BE00000C12 /* CustomFlowLayout2.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B561FCD87BE00000C12 /* CustomFlowLayout2.m */; };
+		F9F63B5F1FCD87BE00000C12 /* SquareLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B581FCD87BE00000C12 /* SquareLayout.m */; };
+		F9F63B601FCD87BE00000C12 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F63B5A1FCD87BE00000C12 /* WaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,22 +35,24 @@
 		F9EF5CE81FCD54BB00413894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9EF5CEA1FCD54BB00413894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9EF5CEB1FCD54BB00413894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9EF5CF21FCD54CE00413894 /* CustomFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
 		F9EF5CF31FCD54CE00413894 /* CustomCollectionLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionLayoutController.h; sourceTree = "<group>"; };
-		F9EF5CF41FCD54CE00413894 /* CustomCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewLayout.m; sourceTree = "<group>"; };
 		F9EF5CF51FCD54CE00413894 /* CustomCollectionLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionLayoutController.m; sourceTree = "<group>"; };
-		F9EF5CF61FCD54CE00413894 /* CustomCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewLayout.h; sourceTree = "<group>"; };
-		F9EF5CF71FCD54CE00413894 /* CustomFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
 		F9EF5CFB1FCD551A00413894 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		F9EF5CFC1FCD551A00413894 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		F9EF5CFD1FCD551A00413894 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		F9F63B401FCD567B00000C12 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
-		F9F63B421FCD57B100000C12 /* CustomFlowLayout2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout2.h; sourceTree = "<group>"; };
-		F9F63B431FCD57B100000C12 /* CustomFlowLayout2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout2.m; sourceTree = "<group>"; };
-		F9F63B451FCD607A00000C12 /* CircleLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
-		F9F63B461FCD607A00000C12 /* CircleLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
-		F9F63B481FCD654F00000C12 /* SquareLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareLayout.h; sourceTree = "<group>"; };
-		F9F63B491FCD654F00000C12 /* SquareLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareLayout.m; sourceTree = "<group>"; };
+		F9F63B4F1FCD87BE00000C12 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		F9F63B501FCD87BE00000C12 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		F9F63B511FCD87BE00000C12 /* CustomCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewLayout.h; sourceTree = "<group>"; };
+		F9F63B521FCD87BE00000C12 /* CustomCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewLayout.m; sourceTree = "<group>"; };
+		F9F63B531FCD87BE00000C12 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		F9F63B541FCD87BE00000C12 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		F9F63B551FCD87BE00000C12 /* CustomFlowLayout2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout2.h; sourceTree = "<group>"; };
+		F9F63B561FCD87BE00000C12 /* CustomFlowLayout2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout2.m; sourceTree = "<group>"; };
+		F9F63B571FCD87BE00000C12 /* SquareLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareLayout.h; sourceTree = "<group>"; };
+		F9F63B581FCD87BE00000C12 /* SquareLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareLayout.m; sourceTree = "<group>"; };
+		F9F63B591FCD87BE00000C12 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		F9F63B5A1FCD87BE00000C12 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,22 +85,13 @@
 		F9EF5CDB1FCD54BB00413894 /* TestCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F9F63B4E1FCD87BE00000C12 /* layouts */,
 				F9EF5CDC1FCD54BB00413894 /* AppDelegate.h */,
 				F9EF5CDD1FCD54BB00413894 /* AppDelegate.m */,
 				F9EF5CDF1FCD54BB00413894 /* ViewController.h */,
 				F9EF5CE01FCD54BB00413894 /* ViewController.m */,
 				F9EF5CF31FCD54CE00413894 /* CustomCollectionLayoutController.h */,
 				F9EF5CF51FCD54CE00413894 /* CustomCollectionLayoutController.m */,
-				F9EF5CF61FCD54CE00413894 /* CustomCollectionViewLayout.h */,
-				F9EF5CF41FCD54CE00413894 /* CustomCollectionViewLayout.m */,
-				F9EF5CF21FCD54CE00413894 /* CustomFlowLayout.h */,
-				F9EF5CF71FCD54CE00413894 /* CustomFlowLayout.m */,
-				F9F63B421FCD57B100000C12 /* CustomFlowLayout2.h */,
-				F9F63B431FCD57B100000C12 /* CustomFlowLayout2.m */,
-				F9F63B451FCD607A00000C12 /* CircleLayout.h */,
-				F9F63B461FCD607A00000C12 /* CircleLayout.m */,
-				F9F63B481FCD654F00000C12 /* SquareLayout.h */,
-				F9F63B491FCD654F00000C12 /* SquareLayout.m */,
 				F9EF5CFB1FCD551A00413894 /* CollectionViewCell.h */,
 				F9EF5CFC1FCD551A00413894 /* CollectionViewCell.m */,
 				F9EF5CFD1FCD551A00413894 /* CollectionViewCell.xib */,
@@ -109,6 +103,25 @@
 				F9F63B401FCD567B00000C12 /* Reveal.framework */,
 			);
 			path = TestCollectionLayout;
+			sourceTree = "<group>";
+		};
+		F9F63B4E1FCD87BE00000C12 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F9F63B4F1FCD87BE00000C12 /* CircleLayout.h */,
+				F9F63B501FCD87BE00000C12 /* CircleLayout.m */,
+				F9F63B511FCD87BE00000C12 /* CustomCollectionViewLayout.h */,
+				F9F63B521FCD87BE00000C12 /* CustomCollectionViewLayout.m */,
+				F9F63B531FCD87BE00000C12 /* CustomFlowLayout.h */,
+				F9F63B541FCD87BE00000C12 /* CustomFlowLayout.m */,
+				F9F63B551FCD87BE00000C12 /* CustomFlowLayout2.h */,
+				F9F63B561FCD87BE00000C12 /* CustomFlowLayout2.m */,
+				F9F63B571FCD87BE00000C12 /* SquareLayout.h */,
+				F9F63B581FCD87BE00000C12 /* SquareLayout.m */,
+				F9F63B591FCD87BE00000C12 /* WaterFlowLayout.h */,
+				F9F63B5A1FCD87BE00000C12 /* WaterFlowLayout.m */,
+			);
+			path = layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,16 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F63B4A1FCD654F00000C12 /* SquareLayout.m in Sources */,
-				F9EF5CFA1FCD54CE00413894 /* CustomFlowLayout.m in Sources */,
-				F9F63B441FCD57B100000C12 /* CustomFlowLayout2.m in Sources */,
+				F9F63B5F1FCD87BE00000C12 /* SquareLayout.m in Sources */,
 				F9EF5CF91FCD54CE00413894 /* CustomCollectionLayoutController.m in Sources */,
+				F9F63B601FCD87BE00000C12 /* WaterFlowLayout.m in Sources */,
 				F9EF5CE11FCD54BB00413894 /* ViewController.m in Sources */,
 				F9EF5CEC1FCD54BB00413894 /* main.m in Sources */,
-				F9F63B471FCD607A00000C12 /* CircleLayout.m in Sources */,
 				F9EF5CDE1FCD54BB00413894 /* AppDelegate.m in Sources */,
 				F9EF5CFE1FCD551A00413894 /* CollectionViewCell.m in Sources */,
-				F9EF5CF81FCD54CE00413894 /* CustomCollectionViewLayout.m in Sources */,
+				F9F63B5B1FCD87BE00000C12 /* CircleLayout.m in Sources */,
+				F9F63B5D1FCD87BE00000C12 /* CustomFlowLayout.m in Sources */,
+				F9F63B5E1FCD87BE00000C12 /* CustomFlowLayout2.m in Sources */,
+				F9F63B5C1FCD87BE00000C12 /* CustomCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
