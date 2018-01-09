@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9B843282004E80800A525EC /* CGView0.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843222004E80700A525EC /* CGView0.m */; };
+		F9B843292004E80800A525EC /* CGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843242004E80700A525EC /* CGViewController.m */; };
+		F9B8432D2004E82E00A525EC /* NetRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B8432C2004E82E00A525EC /* NetRequestViewController.m */; };
 		F9EF5CDE1FCD54BB00413894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CDD1FCD54BB00413894 /* AppDelegate.m */; };
 		F9EF5CE11FCD54BB00413894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CE01FCD54BB00413894 /* ViewController.m */; };
 		F9EF5CE41FCD54BB00413894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EF5CE21FCD54BB00413894 /* Main.storyboard */; };
@@ -25,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9B843212004E80700A525EC /* CGView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGView0.h; sourceTree = "<group>"; };
+		F9B843222004E80700A525EC /* CGView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGView0.m; sourceTree = "<group>"; };
+		F9B843232004E80700A525EC /* CGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewController.h; sourceTree = "<group>"; };
+		F9B843242004E80700A525EC /* CGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGViewController.m; sourceTree = "<group>"; };
+		F9B8432B2004E82E00A525EC /* NetRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetRequestViewController.h; sourceTree = "<group>"; };
+		F9B8432C2004E82E00A525EC /* NetRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetRequestViewController.m; sourceTree = "<group>"; };
 		F9EF5CD91FCD54BB00413894 /* TestCollectionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCollectionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EF5CDC1FCD54BB00413894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9EF5CDD1FCD54BB00413894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +75,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9B843202004E80700A525EC /* LearnCoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				F9B843212004E80700A525EC /* CGView0.h */,
+				F9B843222004E80700A525EC /* CGView0.m */,
+				F9B843232004E80700A525EC /* CGViewController.h */,
+				F9B843242004E80700A525EC /* CGViewController.m */,
+			);
+			path = LearnCoreGraphics;
+			sourceTree = "<group>";
+		};
+		F9B843252004E80700A525EC /* LearnStepNetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8432B2004E82E00A525EC /* NetRequestViewController.h */,
+				F9B8432C2004E82E00A525EC /* NetRequestViewController.m */,
+			);
+			path = LearnStepNetRequest;
+			sourceTree = "<group>";
+		};
 		F9EF5CD01FCD54BB00413894 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 		F9EF5CDB1FCD54BB00413894 /* TestCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F9B843202004E80700A525EC /* LearnCoreGraphics */,
+				F9B843252004E80700A525EC /* LearnStepNetRequest */,
 				F9F63B4E1FCD87BE00000C12 /* layouts */,
 				F9EF5CDC1FCD54BB00413894 /* AppDelegate.h */,
 				F9EF5CDD1FCD54BB00413894 /* AppDelegate.m */,
@@ -197,13 +228,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F63B5F1FCD87BE00000C12 /* SquareLayout.m in Sources */,
+				F9B843292004E80800A525EC /* CGViewController.m in Sources */,
 				F9EF5CF91FCD54CE00413894 /* CustomCollectionLayoutController.m in Sources */,
 				F9F63B601FCD87BE00000C12 /* WaterFlowLayout.m in Sources */,
 				F9EF5CE11FCD54BB00413894 /* ViewController.m in Sources */,
 				F9EF5CEC1FCD54BB00413894 /* main.m in Sources */,
+				F9B843282004E80800A525EC /* CGView0.m in Sources */,
 				F9EF5CDE1FCD54BB00413894 /* AppDelegate.m in Sources */,
 				F9EF5CFE1FCD551A00413894 /* CollectionViewCell.m in Sources */,
 				F9F63B5B1FCD87BE00000C12 /* CircleLayout.m in Sources */,
+				F9B8432D2004E82E00A525EC /* NetRequestViewController.m in Sources */,
 				F9F63B5D1FCD87BE00000C12 /* CustomFlowLayout.m in Sources */,
 				F9F63B5E1FCD87BE00000C12 /* CustomFlowLayout2.m in Sources */,
 				F9F63B5C1FCD87BE00000C12 /* CustomCollectionViewLayout.m in Sources */,
