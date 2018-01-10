@@ -16,11 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
     //    learn demo from http://www.jianshu.com/p/6930f335adba

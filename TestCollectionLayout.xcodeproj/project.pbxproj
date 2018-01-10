@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A698D88F0DCC02391EF7F74A /* libPods-TestCollectionLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6022D93180376ECECA6C39C5 /* libPods-TestCollectionLayout.a */; };
 		F9B843282004E80800A525EC /* CGView0.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843222004E80700A525EC /* CGView0.m */; };
 		F9B843292004E80800A525EC /* CGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843242004E80700A525EC /* CGViewController.m */; };
 		F9B8432D2004E82E00A525EC /* NetRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B8432C2004E82E00A525EC /* NetRequestViewController.m */; };
+		F9B843312005BE8A00A525EC /* RSPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843302005BE8A00A525EC /* RSPlayPauseButton.m */; };
+		F9B843342005C6BC00A525EC /* RSAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843332005C6BC00A525EC /* RSAnimateViewController.m */; };
 		F9EF5CDE1FCD54BB00413894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CDD1FCD54BB00413894 /* AppDelegate.m */; };
 		F9EF5CE11FCD54BB00413894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF5CE01FCD54BB00413894 /* ViewController.m */; };
 		F9EF5CE41FCD54BB00413894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EF5CE21FCD54BB00413894 /* Main.storyboard */; };
@@ -28,12 +31,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6022D93180376ECECA6C39C5 /* libPods-TestCollectionLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCollectionLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8BE57EE8142D2DD47DE297 /* Pods-TestCollectionLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCollectionLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCollectionLayout/Pods-TestCollectionLayout.release.xcconfig"; sourceTree = "<group>"; };
+		A628DDBB46E995CAB19DA4C7 /* Pods-TestCollectionLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCollectionLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCollectionLayout/Pods-TestCollectionLayout.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B843212004E80700A525EC /* CGView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGView0.h; sourceTree = "<group>"; };
 		F9B843222004E80700A525EC /* CGView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGView0.m; sourceTree = "<group>"; };
 		F9B843232004E80700A525EC /* CGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewController.h; sourceTree = "<group>"; };
 		F9B843242004E80700A525EC /* CGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGViewController.m; sourceTree = "<group>"; };
 		F9B8432B2004E82E00A525EC /* NetRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetRequestViewController.h; sourceTree = "<group>"; };
 		F9B8432C2004E82E00A525EC /* NetRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetRequestViewController.m; sourceTree = "<group>"; };
+		F9B8432F2005BE8A00A525EC /* RSPlayPauseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPlayPauseButton.h; sourceTree = "<group>"; };
+		F9B843302005BE8A00A525EC /* RSPlayPauseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPlayPauseButton.m; sourceTree = "<group>"; };
+		F9B843322005C6BC00A525EC /* RSAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAnimateViewController.h; sourceTree = "<group>"; };
+		F9B843332005C6BC00A525EC /* RSAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAnimateViewController.m; sourceTree = "<group>"; };
 		F9EF5CD91FCD54BB00413894 /* TestCollectionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCollectionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EF5CDC1FCD54BB00413894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9EF5CDD1FCD54BB00413894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,12 +79,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A698D88F0DCC02391EF7F74A /* libPods-TestCollectionLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241959CEC64CEA3FBB6B5790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6022D93180376ECECA6C39C5 /* libPods-TestCollectionLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F187D6BC6908510C0E1C6BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A628DDBB46E995CAB19DA4C7 /* Pods-TestCollectionLayout.debug.xcconfig */,
+				6B8BE57EE8142D2DD47DE297 /* Pods-TestCollectionLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9B843202004E80700A525EC /* LearnCoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +123,24 @@
 			path = LearnStepNetRequest;
 			sourceTree = "<group>";
 		};
+		F9B8432E2005BE7300A525EC /* PopAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8432F2005BE8A00A525EC /* RSPlayPauseButton.h */,
+				F9B843302005BE8A00A525EC /* RSPlayPauseButton.m */,
+				F9B843322005C6BC00A525EC /* RSAnimateViewController.h */,
+				F9B843332005C6BC00A525EC /* RSAnimateViewController.m */,
+			);
+			path = PopAnimate;
+			sourceTree = "<group>";
+		};
 		F9EF5CD01FCD54BB00413894 = {
 			isa = PBXGroup;
 			children = (
 				F9EF5CDB1FCD54BB00413894 /* TestCollectionLayout */,
 				F9EF5CDA1FCD54BB00413894 /* Products */,
+				4F187D6BC6908510C0E1C6BC /* Pods */,
+				241959CEC64CEA3FBB6B5790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +155,7 @@
 		F9EF5CDB1FCD54BB00413894 /* TestCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8432E2005BE7300A525EC /* PopAnimate */,
 				F9B843202004E80700A525EC /* LearnCoreGraphics */,
 				F9B843252004E80700A525EC /* LearnStepNetRequest */,
 				F9F63B4E1FCD87BE00000C12 /* layouts */,
@@ -162,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9EF5CEF1FCD54BB00413894 /* Build configuration list for PBXNativeTarget "TestCollectionLayout" */;
 			buildPhases = (
+				4E4AC7A2FD92E1F617116123 /* [CP] Check Pods Manifest.lock */,
 				F9EF5CD51FCD54BB00413894 /* Sources */,
 				F9EF5CD61FCD54BB00413894 /* Frameworks */,
 				F9EF5CD71FCD54BB00413894 /* Resources */,
+				3781549DD58C90FBFEDF1171 /* [CP] Embed Pods Frameworks */,
+				58978A35B9ECC45CB603E458 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +267,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3781549DD58C90FBFEDF1171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCollectionLayout/Pods-TestCollectionLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4AC7A2FD92E1F617116123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCollectionLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58978A35B9ECC45CB603E458 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCollectionLayout/Pods-TestCollectionLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9EF5CD51FCD54BB00413894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -233,6 +329,8 @@
 				F9F63B601FCD87BE00000C12 /* WaterFlowLayout.m in Sources */,
 				F9EF5CE11FCD54BB00413894 /* ViewController.m in Sources */,
 				F9EF5CEC1FCD54BB00413894 /* main.m in Sources */,
+				F9B843312005BE8A00A525EC /* RSPlayPauseButton.m in Sources */,
+				F9B843342005C6BC00A525EC /* RSAnimateViewController.m in Sources */,
 				F9B843282004E80800A525EC /* CGView0.m in Sources */,
 				F9EF5CDE1FCD54BB00413894 /* AppDelegate.m in Sources */,
 				F9EF5CFE1FCD551A00413894 /* CollectionViewCell.m in Sources */,
@@ -372,6 +470,7 @@
 		};
 		F9EF5CF01FCD54BB00413894 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A628DDBB46E995CAB19DA4C7 /* Pods-TestCollectionLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -399,6 +498,7 @@
 		};
 		F9EF5CF11FCD54BB00413894 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8BE57EE8142D2DD47DE297 /* Pods-TestCollectionLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

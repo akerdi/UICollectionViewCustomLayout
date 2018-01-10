@@ -1,20 +1,20 @@
 //
-//  ViewController.m
+//  RSAnimateViewController.m
 //  TestCollectionLayout
 //
-//  Created by aKerdi on 2017/11/28.
-//  Copyright © 2017年 XXT. All rights reserved.
+//  Created by aKerdi on 2018/1/10.
+//  Copyright © 2018年 XXT. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RSAnimateViewController.h"
 
 #import "RSPlayPauseButton.h"
 
-@interface ViewController ()
+@interface RSAnimateViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RSAnimateViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,11 +31,9 @@
     [sender setPaused:sender.selected animated:YES];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
