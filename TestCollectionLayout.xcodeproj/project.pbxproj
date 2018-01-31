@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F956042F2021D57900C62C7C /* PDSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F956042E2021D57900C62C7C /* PDSectionHeadView.m */; };
 		F9B843282004E80800A525EC /* CGView0.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843222004E80700A525EC /* CGView0.m */; };
 		F9B843292004E80800A525EC /* CGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B843242004E80700A525EC /* CGViewController.m */; };
 		F9B8432D2004E82E00A525EC /* NetRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B8432C2004E82E00A525EC /* NetRequestViewController.m */; };
@@ -54,6 +55,8 @@
 
 /* Begin PBXFileReference section */
 		6022D93180376ECECA6C39C5 /* libPods-TestCollectionLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCollectionLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F956042D2021D57900C62C7C /* PDSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDSectionHeadView.h; sourceTree = "<group>"; };
+		F956042E2021D57900C62C7C /* PDSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDSectionHeadView.m; sourceTree = "<group>"; };
 		F9B843212004E80700A525EC /* CGView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGView0.h; sourceTree = "<group>"; };
 		F9B843222004E80700A525EC /* CGView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGView0.m; sourceTree = "<group>"; };
 		F9B843232004E80700A525EC /* CGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewController.h; sourceTree = "<group>"; };
@@ -171,6 +174,15 @@
 				6022D93180376ECECA6C39C5 /* libPods-TestCollectionLayout.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F956042A2021D56800C62C7C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F956042D2021D57900C62C7C /* PDSectionHeadView.h */,
+				F956042E2021D57900C62C7C /* PDSectionHeadView.m */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		F9B843202004E80700A525EC /* LearnCoreGraphics */ = {
@@ -299,6 +311,7 @@
 		F9EF5CDB1FCD54BB00413894 /* TestCollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F956042A2021D56800C62C7C /* CustomView */,
 				F9B8451F200628FE00A525EC /* pop */,
 				F9B8432E2005BE7300A525EC /* PopAnimate */,
 				F9B843202004E80700A525EC /* LearnCoreGraphics */,
@@ -418,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F63B5F1FCD87BE00000C12 /* SquareLayout.m in Sources */,
+				F956042F2021D57900C62C7C /* PDSectionHeadView.m in Sources */,
 				F9B84560200628FE00A525EC /* POPAnimationRuntime.mm in Sources */,
 				F9B8456B200628FE00A525EC /* POPSpringAnimation.mm in Sources */,
 				F9B84567200628FE00A525EC /* POPGeometry.mm in Sources */,
